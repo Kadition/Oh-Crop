@@ -10,6 +10,7 @@ public class Seed1 : MonoBehaviour
     public static int seedType;
     public static int seedDown = 0;
     public static int seedTimer = 0;
+    private SpriteRenderer sprite;
 
     void Awake()
     {
@@ -19,6 +20,7 @@ public class Seed1 : MonoBehaviour
     void Start()
     {
         startingPosition = transform.position;
+        sprite = GetComponent<SpriteRenderer>();
     }
     
     // Update is called once per frame
@@ -27,6 +29,11 @@ public class Seed1 : MonoBehaviour
         if(isHeld)
         {
             transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + offset;
+            sprite.sortingOrder = 4;
+        }
+        if(!isHeld)
+        {
+            sprite.sortingOrder = 0;
         }
         if(seedTimer != 0)
         {

@@ -15,6 +15,7 @@ public class Plot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if(plot1Seed == 1)
         {
 
