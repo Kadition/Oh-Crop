@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Seed : MonoBehaviour
+public class Seed3 : MonoBehaviour
 {
     private Vector3 offset;
     private bool isHeld = false;
     private Vector2 startingPosition;
-    public int seedType;
 
     void Start()
     {
@@ -27,13 +26,14 @@ public class Seed : MonoBehaviour
     {
         offset = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
         isHeld = true;
-        seedType = 1;
+        Seed1.seedType = 3;
     }
-
+    //test
     private void OnMouseUp()
     {
         isHeld = false;
         transform.position = startingPosition;
-        seedType = 0;
+        Seed1.seedDown = 1;
+        //Seed1.seedType = 0;
     }
 }
