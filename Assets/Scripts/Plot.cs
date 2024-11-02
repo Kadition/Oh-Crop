@@ -31,7 +31,7 @@ public class Plot : MonoBehaviour
 
     void OnMouseOver()
     {
-        if(Seed1.seedDown == 1)
+        if((Seed1.seedTimer > 0) && (Seed1.seedDown == 1))
         {
             plot1Seed = Seed1.seedType;
             Debug.Log(plot1Seed);

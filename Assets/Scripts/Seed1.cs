@@ -9,6 +9,12 @@ public class Seed1 : MonoBehaviour
     private Vector2 startingPosition;
     public static int seedType;
     public static int seedDown = 0;
+    public static int seedTimer = 0;
+
+    void Awake()
+    {
+        Application.targetFrameRate = 60;
+    }
 
     void Start()
     {
@@ -21,6 +27,14 @@ public class Seed1 : MonoBehaviour
         if(isHeld)
         {
             transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + offset;
+        }
+        if(seedTimer != 0)
+        {
+            seedTimer--;
+        }
+        if(seedTimer == 0)
+        {
+            seedDown = 0;
         }
     }
 
@@ -36,5 +50,8 @@ public class Seed1 : MonoBehaviour
         isHeld = false;
         transform.position = startingPosition;
         seedDown = 1;
+        seedTimer = 5;
+
+        //Todo - fix where you can fling mouse
     }
 }
