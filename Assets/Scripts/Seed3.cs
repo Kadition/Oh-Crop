@@ -28,12 +28,11 @@ public class Seed3 : MonoBehaviour
         isHeld = true;
         Seed1.seedType = 3;
     }
-    //test
+
     private void OnMouseUp()
     {
         isHeld = false;
         transform.position = startingPosition;
         Seed1.seedDown = 1;
-        //Seed1.seedType = 0;
     }
 }

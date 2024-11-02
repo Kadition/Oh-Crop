@@ -34,6 +34,5 @@ public class Seed2 : MonoBehaviour
         isHeld = false;
         transform.position = startingPosition;
         Seed1.seedDown = 1;
-        //Seed1.seedType = 0;
     }
 }
