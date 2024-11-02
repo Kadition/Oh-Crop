@@ -58,6 +58,7 @@ public class Seed1 : MonoBehaviour
         transform.position = startingPosition;
         seedDown = 1;
         seedTimer = 5;
+        
 
         //Todo - fix where you can fling mouse
     }

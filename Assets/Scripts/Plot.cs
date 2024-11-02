@@ -7,6 +7,7 @@ public class Plot : MonoBehaviour
     public static int plot1Seed = 0;
     // Start is called before the first frame update
     public static Vector2 mousePos;
+    public Sprite noWater, Water, blank; 
     void Start()
     {
         
@@ -28,11 +29,15 @@ public class Plot : MonoBehaviour
         {
 
         }
+        else
+        {
+
+        }
     }
 
     void OnMouseOver()
     {
-        if((Seed1.seedTimer > 0) && (Seed1.seedDown == 1))
+        if((Seed1.seedTimer > 0) && (Seed1.seedDown == 1) && (Plant.isThere == 0))
         {
             plot1Seed = Seed1.seedType;
             Debug.Log(plot1Seed);
