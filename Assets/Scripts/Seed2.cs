@@ -21,7 +21,7 @@ public class Seed2 : MonoBehaviour
         if(isHeld)
         {
             transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + offset;
-            sprite.sortingOrder = 4;
+            sprite.sortingOrder = 8;
         }
         if(!isHeld)
         {
