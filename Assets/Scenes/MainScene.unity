@@ -132,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 38560776}
   - component: {fileID: 38560778}
-  - component: {fileID: 38560777}
+  - component: {fileID: 38560779}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -155,37 +155,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1443536085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &38560777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38560775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &38560778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -238,6 +207,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &38560779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38560775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ca0ac2adc4b3d4a89c4aa5752878d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &64612880
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138623430}
   - component: {fileID: 138623432}
-  - component: {fileID: 138623431}
+  - component: {fileID: 138623433}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -533,37 +533,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1766720699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &138623431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 138623429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &138623432
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -616,6 +585,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &138623433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138623429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccb2e3a3fee4e547bd50bee992b6bd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &150907834
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,7 +856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 202841254}
   - component: {fileID: 202841256}
-  - component: {fileID: 202841255}
+  - component: {fileID: 202841257}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -879,37 +879,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1499337078}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &202841255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202841253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &202841256
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -962,6 +931,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &202841257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202841253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3b40e57ead0bd45bfdd22755cd163a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &206252774
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 206252775}
   - component: {fileID: 206252777}
-  - component: {fileID: 206252776}
+  - component: {fileID: 206252778}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -995,37 +995,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 522315898}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &206252776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206252774}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &206252777
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1078,6 +1047,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &206252778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206252774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032a5265670897d47a975675ff49627d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &229713604
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,7 +1785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 410147879}
   - component: {fileID: 410147881}
-  - component: {fileID: 410147880}
+  - component: {fileID: 410147882}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -1808,37 +1808,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 292006966}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &410147880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410147878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &410147881
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1891,6 +1860,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &410147882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410147878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98442587528aa849ba546cbd2b6250b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &511266826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2528,7 +2528,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664043268}
   - component: {fileID: 664043270}
-  - component: {fileID: 664043269}
+  - component: {fileID: 664043271}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -2551,37 +2551,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1089867208}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &664043269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664043267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &664043270
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2634,6 +2603,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &664043271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664043267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31a5a4be43a53841a897968d267a2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &677176831
 GameObject:
   m_ObjectHideFlags: 0
@@ -2644,7 +2644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 677176832}
   - component: {fileID: 677176834}
-  - component: {fileID: 677176833}
+  - component: {fileID: 677176835}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -2667,37 +2667,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 68748176}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &677176833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677176831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &677176834
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2750,6 +2719,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &677176835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677176831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fbc56eef49257646a22ab9305457495, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &824489101
 GameObject:
   m_ObjectHideFlags: 0
@@ -3344,7 +3344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 995288944}
   - component: {fileID: 995288946}
-  - component: {fileID: 995288945}
+  - component: {fileID: 995288947}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -3367,37 +3367,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1069214720}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &995288945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 995288943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &995288946
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3450,6 +3419,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &995288947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995288943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94258ce719c9e5d4bbacabfc8aa2c206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1004136672
 GameObject:
   m_ObjectHideFlags: 0
@@ -4482,7 +4482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1227629178}
   - component: {fileID: 1227629180}
-  - component: {fileID: 1227629179}
+  - component: {fileID: 1227629181}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -4505,37 +4505,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1649087057}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1227629179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1227629177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1227629180
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4588,6 +4557,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1227629181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227629177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7ac00d20003834ea48979cf975bd0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1267472397
 GameObject:
   m_ObjectHideFlags: 0
@@ -4598,7 +4598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1267472398}
   - component: {fileID: 1267472400}
-  - component: {fileID: 1267472399}
+  - component: {fileID: 1267472401}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -4621,37 +4621,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1100349305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1267472399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267472397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1267472400
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4704,6 +4673,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1267472401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267472397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3638e84c8ae7e34dbb8e910860bf162, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1330796543
 GameObject:
   m_ObjectHideFlags: 0
@@ -4714,7 +4714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1330796544}
   - component: {fileID: 1330796546}
-  - component: {fileID: 1330796545}
+  - component: {fileID: 1330796547}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -4737,37 +4737,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1203353780}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1330796545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1330796543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1330796546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4820,6 +4789,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1330796547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330796543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f15450de018b8b341aa98a6eaeef279b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1384716098
 GameObject:
   m_ObjectHideFlags: 0
@@ -4830,7 +4830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384716099}
   - component: {fileID: 1384716101}
-  - component: {fileID: 1384716100}
+  - component: {fileID: 1384716102}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -4853,37 +4853,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 171913513}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1384716100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1384716098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1384716101
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4936,6 +4905,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1384716102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384716098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aca93a2dd3921147af8da5d2b88c38b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1392776743
 GameObject:
   m_ObjectHideFlags: 0
@@ -4946,7 +4946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1392776744}
   - component: {fileID: 1392776746}
-  - component: {fileID: 1392776745}
+  - component: {fileID: 1392776747}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -4969,37 +4969,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1117291172}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1392776745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1392776743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1392776746
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5052,6 +5021,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1392776747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392776743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b513771453ed1ef4ca8173a5191077d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1443107179
 GameObject:
   m_ObjectHideFlags: 0
@@ -5539,7 +5539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542086359}
   - component: {fileID: 1542086361}
-  - component: {fileID: 1542086360}
+  - component: {fileID: 1542086362}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -5562,37 +5562,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 934195688}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1542086360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1542086358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1542086361
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5645,6 +5614,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1542086362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542086358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 420b094083cb1f447bb723fb9b212d1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1649087053
 GameObject:
   m_ObjectHideFlags: 0
@@ -6495,7 +6495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1805709575}
   - component: {fileID: 1805709577}
-  - component: {fileID: 1805709576}
+  - component: {fileID: 1805709578}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -6518,37 +6518,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1904855926}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1805709576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805709574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1805709577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6601,6 +6570,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1805709578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805709574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a775ad5c3708ede47a7a46ad5d9afe06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1813307641
 GameObject:
   m_ObjectHideFlags: 0
@@ -6611,7 +6611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1813307642}
   - component: {fileID: 1813307644}
-  - component: {fileID: 1813307643}
+  - component: {fileID: 1813307645}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -6634,37 +6634,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 824489105}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1813307643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813307641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1813307644
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6717,6 +6686,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1813307645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813307641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c27264b8800fd0e4c816ca82b121cd76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1841289420
 GameObject:
   m_ObjectHideFlags: 0
@@ -6727,7 +6727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1841289421}
   - component: {fileID: 1841289423}
-  - component: {fileID: 1841289422}
+  - component: {fileID: 1841289424}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -6750,37 +6750,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 511266830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1841289422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1841289420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1841289423
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6833,6 +6802,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1841289424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841289420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e4f55268d489747b8884654b0ff7ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &1904855922
 GameObject:
   m_ObjectHideFlags: 0
@@ -6989,7 +6989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1961202042}
   - component: {fileID: 1961202044}
-  - component: {fileID: 1961202043}
+  - component: {fileID: 1961202045}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -7012,37 +7012,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1004136676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1961202043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1961202041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &1961202044
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7095,6 +7064,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1961202045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961202041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884b027407e94ba46a65ae390ada3af7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &2005963005
 GameObject:
   m_ObjectHideFlags: 0
@@ -7105,7 +7105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2005963006}
   - component: {fileID: 2005963008}
-  - component: {fileID: 2005963007}
+  - component: {fileID: 2005963009}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -7128,37 +7128,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1011395753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2005963007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2005963005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &2005963008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7211,6 +7180,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2005963009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005963005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138ac5bbaff3f034599f876c44774a7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1 &2014053338
 GameObject:
   m_ObjectHideFlags: 0
@@ -7448,7 +7448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2127911160}
   - component: {fileID: 2127911162}
-  - component: {fileID: 2127911161}
+  - component: {fileID: 2127911163}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -7471,37 +7471,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 229713608}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2127911161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2127911159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93c2cbc7c254acf4fba67cb1bf7e72f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
-  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
-  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
-  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
-  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!212 &2127911162
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7554,15 +7523,46 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2127911163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2127911159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb06fc9b39f2a6d4a8027d6a646d3ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  c1: {fileID: -1124505372, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c2: {fileID: -32467446, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c3: {fileID: -16483972, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c4: {fileID: -724519126, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  c5: {fileID: 662782451, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  cd: {fileID: 1786705815, guid: 27adcffaa3979eb43bf22855291df5fa, type: 3}
+  t1: {fileID: -480218697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t2: {fileID: -1080601826, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t3: {fileID: -1367427697, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t4: {fileID: -1312415107, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  t5: {fileID: 87273789, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  td: {fileID: -1983898871, guid: 4680ad1d58bb64b4586bb08bdefb0ab8, type: 3}
+  a1: {fileID: -1648067589, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a2: {fileID: 179801739, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a3: {fileID: -105073358, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a4: {fileID: -2084510188, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  a5: {fileID: 1406841905, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
+  ad: {fileID: 1914982002, guid: c3cd33ac527594441bf909b5eacd60df, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 305705611}
-  - {fileID: 1651039193}
   - {fileID: 2077799879}
+  - {fileID: 1651039193}
+  - {fileID: 305705611}
   - {fileID: 1779067515}
   - {fileID: 273600585}
   - {fileID: 933182070}
