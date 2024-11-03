@@ -14,6 +14,11 @@ public class BirdBehavior : MonoBehaviour
     public static float moveSpeed = 2f;
     public static float initialX;
     public static float initialY;
+    public Sprite openW, closedW;
+    private static int frameCount;
+    private static bool fail;
+    public GameOverScreen GameOverScreen;
+
 
     void spawn()
     {
@@ -33,9 +38,12 @@ public class BirdBehavior : MonoBehaviour
              transform.Translate(new Vector2(-11, rnd.Next(-6, 6+1)));
         }
 
-        //gives the initial x and y positions
         initialX = transform.position.x;
         initialY = transform.position.y;
+
+        //Vector2 direction = new Vector2(0 - transform.position.x, 0 - 1 - transform.position.y);
+
+        //transform.up = direction;
 
         //absolute value
         if(initialX < 0) {
@@ -44,11 +52,15 @@ public class BirdBehavior : MonoBehaviour
         if(initialY < 0) {
             initialY *= -1;
         }
+
         Debug.Log(initialX);
     }
     
     void Start()
     {   
+        GetComponent<SpriteRenderer>().sprite = openW;
+        frameCount = 0;
+        fail = false;
         spawn();
     }
 
@@ -60,31 +72,54 @@ public class BirdBehavior : MonoBehaviour
         } else if (delay <= 0.5 && delay >= 0.25); {
             delay = delay - 0.005;
         } */
-        if((transform.position.x == 0) && (transform.position.y == -1))
+        
+        frameCount++;
+        if(frameCount == 32)
         {
-            
-        }
-
-        if(transform.position.x > 0)  //if x pos is right of 0, move left until 0;
-        {
-            transform.Translate(Vector2.left * (initialX / 10) * moveSpeed * Time.deltaTime);
-        }
-
-        if(transform.position.x < 0)  
-        {
-            transform.Translate(Vector2.right * (initialX / 10) * moveSpeed * Time.deltaTime);
-        }
-
-        if(transform.position.y > -1)  
-        {
-            transform.Translate(Vector2.down * ((initialY + 1)/ 10) * moveSpeed * Time.deltaTime);       
-        }
-
-        if(transform.position.y < -1)  
-        {
-            transform.Translate(Vector2.up * ((initialY - 1) / 10) * moveSpeed * Time.deltaTime);
+            frameCount = 0;
+            if(GetComponent<SpriteRenderer>().sprite == openW)
+            {
+                GetComponent<SpriteRenderer>().sprite = closedW;
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().sprite = openW;
+            }
         }
         
+        
+        //transform.position = transform.forward * moveSpeed * Time.deltaTime;
+        
+
+        
+        fail = true;
+        if(transform.position.x > 0.01)  //if x pos is right of 0, move left until 0;
+        {
+            transform.Translate(Vector2.left * (initialX / 10) * moveSpeed * Time.deltaTime);
+            fail = false;
+        }
+
+        if(transform.position.x < -0.01)  
+        {
+            transform.Translate(Vector2.right * (initialX / 10) * moveSpeed * Time.deltaTime);
+            fail = false;
+        }
+
+        if(transform.position.y > -0.99)  
+        {
+            transform.Translate(Vector2.down * ((initialY + 1)/ 10) * moveSpeed * Time.deltaTime);
+            fail = false;       
+        }
+
+        if(transform.position.y < -1.01)  
+        {
+            transform.Translate(Vector2.up * ((initialY - 1) / 10) * moveSpeed * Time.deltaTime);
+            fail = false;
+        }
+        if(fail)
+        {
+            GameOverScreen.Setup(Coin.count);
+        }
         
         //transform.rotation = Quaternion.AngleAxis(0.1, Vector3.forward);
 

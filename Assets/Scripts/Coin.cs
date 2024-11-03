@@ -12,5 +12,4 @@ public class Coin : MonoBehaviour
     {
         count = 0;
     }
-
 }
