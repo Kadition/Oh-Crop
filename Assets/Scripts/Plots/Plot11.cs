@@ -23,34 +23,34 @@ public class Plot11 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if((Plant.isDead == 1) && (Plant.isThere == 0))
+        if((Plant11.isDead == 1) && (Plant11.isThere == 0))
         {
             GetComponent<SpriteRenderer>().sprite = noWater;
-            Plant.isDead = 0;
+            Plant11.isDead = 0;
             isWatered = 0;
         }
     }
 
     void OnMouseOver()
     {
-        if((Seed1.seedTimer > 0) && (Seed1.seedDown == 1) && (Plant.isThere == 0))
+        if((Seed1.seedTimer > 0) && (Seed1.seedDown == 1) && (Plant11.isThere == 0))
         {
             if(Seed1.seedType == 1)
             {
                 plotSeed = Seed1.seedType;
-                Plant.plantSeed = 1;
+                Plant11.plantSeed = 1;
             }
             else if ((Seed1.seedType == 2) && (Coin.count > 2))
             {
                 plotSeed = Seed1.seedType;
                 Coin.count -= 3;
-                Plant.plantSeed = 1;
+                Plant11.plantSeed = 1;
             }
             else if ((Seed1.seedType == 3) && (Coin.count > 9))
             {
                 plotSeed = Seed1.seedType;
                 Coin.count -= 10;
-                Plant.plantSeed = 1;
+                Plant11.plantSeed = 1;
             }
             Seed1.seedDown = 0;
         }
@@ -64,7 +64,7 @@ public class Plot11 : MonoBehaviour
 
     void OnMouseDown()
     {
-        if((Plant.isThere == 1) && (Plant.isReady == 1))
+        if((Plant11.isThere == 1) && (Plant11.isReady == 1))
         {
             killPlant = 1;
             isWatered = 0;

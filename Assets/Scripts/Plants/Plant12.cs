@@ -24,13 +24,13 @@ public class Plant12 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Plot.killPlant == 1)
+        if(Plot12.killPlant == 1)
         {
             isReady = 0;
             isThere = 0;
             isDead = 0;
             plantSeed = 0;
-            Plot.killPlant = 0;
+            Plot12.killPlant = 0;
             GetComponent<SpriteRenderer>().sprite = noPlant;
         }
         else if(plantSeed == 1)
@@ -38,15 +38,15 @@ public class Plant12 : MonoBehaviour
             plantSeed = 0;
             isThere = 1;
             random = new System.Random();
-            if(Plot.plotSeed == 1)
+            if(Plot12.plotSeed == 1)
             {
                 GetComponent<SpriteRenderer>().sprite = c1;
             }
-            else if(Plot.plotSeed == 2)
+            else if(Plot12.plotSeed == 2)
             {
                 GetComponent<SpriteRenderer>().sprite = t1;
             }
-            else if(Plot.plotSeed == 3)
+            else if(Plot12.plotSeed == 3)
             {
                 GetComponent<SpriteRenderer>().sprite = a1;
             }
@@ -166,7 +166,7 @@ public class Plant12 : MonoBehaviour
                     isThere = 0;
                 }
                 
-                if((Plot.isWatered == 1) && (isReady == 0) && (isDead == 0))
+                if((Plot12.isWatered == 1) && (isReady == 0) && (isDead == 0))
                 {
                     timeToGrowth = timeToGrowth / 2;
                 }
