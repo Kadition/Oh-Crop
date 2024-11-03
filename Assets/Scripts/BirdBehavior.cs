@@ -18,6 +18,7 @@ public class BirdBehavior : MonoBehaviour
     private static int frameCount;
     private static bool fail;
     public GameOverScreen GameOverScreen;
+    private static bool go;
 
 
     void spawn()
@@ -61,68 +62,76 @@ public class BirdBehavior : MonoBehaviour
         GetComponent<SpriteRenderer>().sprite = openW;
         frameCount = 0;
         fail = false;
-        spawn();
+        go = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*if(delay > 0.5) {
-            delay = delay - 0.01;
-        } else if (delay <= 0.5 && delay >= 0.25); {
-            delay = delay - 0.005;
-        } */
-        
-        frameCount++;
-        if(frameCount == 32)
+        if(StartScreen.hasStarted)
         {
-            frameCount = 0;
-            if(GetComponent<SpriteRenderer>().sprite == openW)
+            /*if(delay > 0.5) {
+                delay = delay - 0.01;
+            } else if (delay <= 0.5 && delay >= 0.25); {
+                delay = delay - 0.005;
+            } */
+            
+            if(go)
             {
-                GetComponent<SpriteRenderer>().sprite = closedW;
+                spawn();
+                go = false;
             }
-            else
+
+            frameCount++;
+            if(frameCount == 32)
             {
-                GetComponent<SpriteRenderer>().sprite = openW;
+                frameCount = 0;
+                if(GetComponent<SpriteRenderer>().sprite == openW)
+                {
+                    GetComponent<SpriteRenderer>().sprite = closedW;
+                }
+                else
+                {
+                    GetComponent<SpriteRenderer>().sprite = openW;
+                }
             }
-        }
-        
-        
-        //transform.position = transform.forward * moveSpeed * Time.deltaTime;
-        
+            
+            
+            //transform.position = transform.forward * moveSpeed * Time.deltaTime;
+            
 
-        
-        fail = true;
-        if(transform.position.x > 0.01)  //if x pos is right of 0, move left until 0;
-        {
-            transform.Translate(Vector2.left * (initialX / 10) * moveSpeed * Time.deltaTime);
-            fail = false;
-        }
+            
+            fail = true;
+            if(transform.position.x > 0.01)  //if x pos is right of 0, move left until 0;
+            {
+                transform.Translate(Vector2.left * (initialX / 10) * moveSpeed * Time.deltaTime);
+                fail = false;
+            }
 
-        if(transform.position.x < -0.01)  
-        {
-            transform.Translate(Vector2.right * (initialX / 10) * moveSpeed * Time.deltaTime);
-            fail = false;
-        }
+            if(transform.position.x < -0.01)  
+            {
+                transform.Translate(Vector2.right * (initialX / 10) * moveSpeed * Time.deltaTime);
+                fail = false;
+            }
 
-        if(transform.position.y > -0.99)  
-        {
-            transform.Translate(Vector2.down * ((initialY + 1)/ 10) * moveSpeed * Time.deltaTime);
-            fail = false;       
-        }
+            if(transform.position.y > -0.99)  
+            {
+                transform.Translate(Vector2.down * ((initialY + 1)/ 10) * moveSpeed * Time.deltaTime);
+                fail = false;       
+            }
 
-        if(transform.position.y < -1.01)  
-        {
-            transform.Translate(Vector2.up * ((initialY - 1) / 10) * moveSpeed * Time.deltaTime);
-            fail = false;
+            if(transform.position.y < -1.01)  
+            {
+                transform.Translate(Vector2.up * ((initialY - 1) / 10) * moveSpeed * Time.deltaTime);
+                fail = false;
+            }
+            if(fail)
+            {
+                GameOverScreen.Setup(Coin.count);
+            }
+            
+            //transform.rotation = Quaternion.AngleAxis(0.1, Vector3.forward);
         }
-        if(fail)
-        {
-            GameOverScreen.Setup(Coin.count);
-        }
-        
-        //transform.rotation = Quaternion.AngleAxis(0.1, Vector3.forward);
-
     }
     void OnMouseDown() 
     {
