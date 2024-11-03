@@ -25,7 +25,6 @@ public class Plot : MonoBehaviour
     {
         if((Plant.isDead == 1) && (Plant.isThere == 0))
         {
-            Debug.Log("test");
             GetComponent<SpriteRenderer>().sprite = noWater;
             Plant.isDead = 0;
             isWatered = 0;
@@ -39,20 +38,17 @@ public class Plot : MonoBehaviour
             if(Seed1.seedType == 1)
             {
                 plotSeed = Seed1.seedType;
-                Debug.Log(plotSeed);
                 Plant.plantSeed = 1;
             }
             else if ((Seed1.seedType == 2) && (Coin.count > 2))
             {
                 plotSeed = Seed1.seedType;
-                Debug.Log(plotSeed);
                 Coin.count -= 3;
                 Plant.plantSeed = 1;
             }
             else if ((Seed1.seedType == 3) && (Coin.count > 9))
             {
                 plotSeed = Seed1.seedType;
-                Debug.Log(plotSeed);
                 Coin.count -= 10;
                 Plant.plantSeed = 1;
             }
