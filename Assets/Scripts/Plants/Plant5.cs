@@ -52,7 +52,7 @@ public class Plant5 : MonoBehaviour
             }
             else
             {
-                Debug.Log("Plant Error");
+                //Debug.Log("Plant Error");
             }
             stime = DateTime.Now;
             timeToGrowth = random.Next(5, 11);

@@ -53,7 +53,7 @@ public class BirdBehavior : MonoBehaviour
             initialY *= -1;
         }
 
-        Debug.Log(initialX);
+        //Debug.Log(initialX);
     }
     
     void Start()
@@ -127,6 +127,6 @@ public class BirdBehavior : MonoBehaviour
     void OnMouseDown() 
     {
         spawn();
-        Debug.Log("mouse is down");
+        //Debug.Log("mouse is down");
     }
 }
