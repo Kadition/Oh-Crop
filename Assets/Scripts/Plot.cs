@@ -29,18 +29,21 @@ public class Plot : MonoBehaviour
             {
                 plotSeed = Seed1.seedType;
                 Debug.Log(plotSeed);
+                Plant.plantSeed = 1;
             }
             else if ((Seed1.seedType == 2) && (Coin.count > 2))
             {
                 plotSeed = Seed1.seedType;
                 Debug.Log(plotSeed);
                 Coin.count -= 3;
+                Plant.plantSeed = 1;
             }
             else if ((Seed1.seedType == 3) && (Coin.count > 9))
             {
                 plotSeed = Seed1.seedType;
                 Debug.Log(plotSeed);
                 Coin.count -= 10;
+                Plant.plantSeed = 1;
             }
             Seed1.seedDown = 0;
         }
