@@ -1,21 +1,22 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using System;
 
-public class Coin : MonoBehaviour
+public class CoinText : MonoBehaviour
 {
-    public static int count;
-    public static int test = 0;
+    [SerializeField] private TextMeshProUGUI coinCount;
+    
     // Start is called before the first frame update
     void Start()
     {
-        count = 0;
+        coinCount.text = "0";
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

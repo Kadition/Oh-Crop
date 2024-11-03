@@ -20,7 +20,7 @@ public class Plant : MonoBehaviour
     {
         if(Plot.killPlant == 1)
         {
-
+            
         }
     }
 }
