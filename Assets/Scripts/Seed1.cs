@@ -35,7 +35,7 @@ public class Seed1 : MonoBehaviour
         }
         if(!isHeld)
         {
-            sprite.sortingOrder = 0;
+            sprite.sortingOrder = 1;
         }
         if(seedTimer != 0)
         {

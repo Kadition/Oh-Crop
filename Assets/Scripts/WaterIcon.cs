@@ -29,7 +29,7 @@ public class WaterIcon : MonoBehaviour
         }
         if(!isHeld)
         {
-            sprite.sortingOrder = 0;
+            sprite.sortingOrder = 1;
         }
         if(waterTimer != 0)
         {
