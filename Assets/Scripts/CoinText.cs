@@ -6,17 +6,16 @@ using System;
 
 public class CoinText : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI coinCount;
-    
+    public TMP_Text message;
     // Start is called before the first frame update
     void Start()
     {
-        coinCount.text = "0";
+        message.SetText("0");
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        message.SetText(Convert.ToString(Coin.count));
     }
 }
