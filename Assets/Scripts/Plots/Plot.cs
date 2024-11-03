@@ -25,8 +25,10 @@ public class Plot : MonoBehaviour
     {
         if((Plant.isDead == 1) && (Plant.isThere == 0))
         {
-            Plant.isDead = 0;
+            Debug.Log("test");
             GetComponent<SpriteRenderer>().sprite = noWater;
+            Plant.isDead = 0;
+            isWatered = 0;
         }
     }
 
@@ -60,6 +62,7 @@ public class Plot : MonoBehaviour
         {
             isWatered = 1;
             GetComponent<SpriteRenderer>().sprite = Water;
+            WaterIcon.waterDown = 0;
         }
     }
 
@@ -69,6 +72,7 @@ public class Plot : MonoBehaviour
         {
             killPlant = 1;
             isWatered = 0;
+            GetComponent<SpriteRenderer>().sprite = noWater;
             if(plotSeed == 1)
             {
                 Coin.count += 1; //cost 0
