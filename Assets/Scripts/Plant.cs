@@ -17,10 +17,7 @@ public class Plant : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //System.Random rnd = new System.Random();
-        //int month  = rnd.Next(1, 13);  // creates a number between 1 and 12
-        //int dice   = rnd.Next(1, 7);   // creates a number between 1 and 6
-        //int card   = rnd.Next(52);     // creates a number between 0 and 51
+        GetComponent<SpriteRenderer>().sprite = noPlant;
     }
 
     // Update is called once per frame
@@ -30,6 +27,7 @@ public class Plant : MonoBehaviour
         {
             isReady = 0;
             isThere = 0;
+            Plot.killPlant = 0;
             GetComponent<SpriteRenderer>().sprite = noPlant;
         }
         else if(plantSeed == 1)
