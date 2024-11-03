@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 125a9740ad8e0154ab8ce9ce2f064cce
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - noPlant: {fileID: 21300000, guid: b996f2da4e40dd443844124f32521269, type: 3}
+  - c1: {instanceID: 0}
+  - c2: {instanceID: 0}
+  - c3: {instanceID: 0}
+  - c4: {instanceID: 0}
+  - c5: {instanceID: 0}
+  - cd: {instanceID: 0}
+  - t1: {instanceID: 0}
+  - t2: {instanceID: 0}
+  - t3: {instanceID: 0}
+  - t4: {instanceID: 0}
+  - t5: {instanceID: 0}
+  - td: {instanceID: 0}
+  - a1: {instanceID: 0}
+  - a2: {instanceID: 0}
+  - a3: {instanceID: 0}
+  - a4: {instanceID: 0}
+  - a5: {instanceID: 0}
+  - ad: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

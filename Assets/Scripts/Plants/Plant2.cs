@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class Plant : MonoBehaviour
+public class Plant2 : MonoBehaviour
 {
     public Sprite noPlant, c1, c2, c3, c4, c5, cd, t1, t2, t3, t4, t5, td, a1, a2, a3, a4, a5, ad;
     public static int isThere = 0;
@@ -23,11 +23,11 @@ public class Plant : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Plot.killPlant == 1)
+        if(Plot2.killPlant == 1)
         {
             isReady = 0;
             isThere = 0;
-            Plot.killPlant = 0;
+            Plot2.killPlant = 0;
             GetComponent<SpriteRenderer>().sprite = noPlant;
         }
         else if(plantSeed == 1)
@@ -35,15 +35,15 @@ public class Plant : MonoBehaviour
             plantSeed = 0;
             isThere = 1;
             random = new System.Random();
-            if(Plot.plotSeed == 1)
+            if(Plot2.plotSeed == 1)
             {
                 GetComponent<SpriteRenderer>().sprite = c1;
             }
-            else if(Plot.plotSeed == 2)
+            else if(Plot2.plotSeed == 2)
             {
                 GetComponent<SpriteRenderer>().sprite = t1;
             }
-            else if(Plot.plotSeed == 3)
+            else if(Plot2.plotSeed == 3)
             {
                 GetComponent<SpriteRenderer>().sprite = a1;
             }

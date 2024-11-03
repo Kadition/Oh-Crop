@@ -2,23 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.PackageManager;
 using UnityEngine;
+using System;
 
 public class Plot : MonoBehaviour
 {
-    public static int plotSeed = 0;
+    public static int plotSeed;
     // Start is called before the first frame update
     public static Vector2 mousePos;
     public Sprite noWater, Water; 
-    public static int killPlant = 0;
+    public static int killPlant;
+    public static int isWatered;
     void Start()
     {
-        
+        isWatered = 0;
+        plotSeed = 0;
+        killPlant = 0;
+        GetComponent<SpriteRenderer>().sprite = noWater;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if((Plant.isDead == 1) && (Plant.isThere == 0))
+        {
+            Plant.isDead = 0;
+            GetComponent<SpriteRenderer>().sprite = noWater;
+        }
     }
 
     void OnMouseOver()
@@ -47,6 +56,11 @@ public class Plot : MonoBehaviour
             }
             Seed1.seedDown = 0;
         }
+        else if((WaterIcon.waterTimer > 0) && (WaterIcon.waterDown == 1) && (isWatered == 0))
+        {
+            isWatered = 1;
+            GetComponent<SpriteRenderer>().sprite = Water;
+        }
     }
 
     void OnMouseDown()
@@ -54,6 +68,7 @@ public class Plot : MonoBehaviour
         if((Plant.isThere == 1) && (Plant.isReady == 1))
         {
             killPlant = 1;
+            isWatered = 0;
             if(plotSeed == 1)
             {
                 Coin.count += 1; //cost 0
