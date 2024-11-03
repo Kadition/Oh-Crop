@@ -35,6 +35,7 @@ public class Plant : MonoBehaviour
         else if(plantSeed == 1)
         {
             plantSeed = 0;
+            isThere = 1;
             random = new System.Random();
             if(Plot.plotSeed == 1)
             {
