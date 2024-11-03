@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 27adcffaa3979eb43bf22855291df5fa
+guid: 4680ad1d58bb64b4586bb08bdefb0ab8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,127 +110,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Final Corn_0
+      name: Tomato Plant 1
       rect:
         serializedVersion: 2
-        x: 152
-        y: 672
-        width: 40
-        height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 112
+        y: 760
+        width: 96
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7456856f7527e154f82b8e5f3542513e
-      internalID: -1124505372
+      spriteID: c534ef580f6f44b4d95dc65ba4a52a77
+      internalID: -480218697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Corn_1
+      name: Tomato Plant 2
       rect:
         serializedVersion: 2
-        x: 448
-        y: 672
-        width: 64
-        height: 96
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 408
+        y: 728
+        width: 144
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f5042ffee0fb4d409d017d7ef8478df
-      internalID: -32467446
+      spriteID: ea675c55d2f0ca44dab6f58a47fd6fea
+      internalID: -1080601826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Corn_2
+      name: Tomato Plant 3
       rect:
         serializedVersion: 2
-        x: 128
-        y: 352
-        width: 64
-        height: 136
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 80
+        y: 376
+        width: 152
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f69e846f7d016f94288001212de4a8d1
-      internalID: -16483972
+      spriteID: f349f4b5a3c6e4640aee1709ed0f07e8
+      internalID: -1367427697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Corn_3
+      name: Tomato Plant 4
       rect:
         serializedVersion: 2
-        x: 448
-        y: 352
-        width: 64
-        height: 184
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 392
+        y: 376
+        width: 176
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b4de4cea528dac458e24fab15c38784
-      internalID: -724519126
+      spriteID: fcfa9409bee13314d8d2caa3c7de7d98
+      internalID: -1312415107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Corn_4
+      name: Tomato Plant 5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
-        width: 64
-        height: 264
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 65
+        y: 51
+        width: 176
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd82cc23930a8b2469a9bc5fde1a4298
-      internalID: 662782451
+      spriteID: d9b29edc7d8636c42819306297979b5e
+      internalID: 87273789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Corn_5
+      name: Tomato Plant Dead
       rect:
         serializedVersion: 2
-        x: 448
-        y: 32
-        width: 64
-        height: 264
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 392
+        y: 56
+        width: 176
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 099aae9f8cac68a46b3efc3e128a131c
-      internalID: 1786705815
+      spriteID: 6bb5848f8d44e8940823e1c2f51981b2
+      internalID: -1983898871
       vertices: []
       indices: 
       edges: []
@@ -246,12 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Final Corn_0: -1124505372
-      Final Corn_1: -32467446
-      Final Corn_2: -16483972
-      Final Corn_3: -724519126
-      Final Corn_4: 662782451
-      Final Corn_5: 1786705815
+      Tomato Plant 1: -480218697
+      Tomato Plant 2: -1080601826
+      Tomato Plant 3: -1367427697
+      Tomato Plant 4: -1312415107
+      Tomato Plant 5: 87273789
+      Tomato Plant Dead: -1983898871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

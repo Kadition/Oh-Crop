@@ -54,6 +54,7 @@ public class Plant : MonoBehaviour
             }
             stime = DateTime.Now;
             timeToGrowth = random.Next(5, 11);
+            //todo - timetogrowth/2 for watered soil
         }
         else if(GetComponent<SpriteRenderer>().sprite != noPlant)
         {
@@ -67,23 +68,28 @@ public class Plant : MonoBehaviour
                 if(GetComponent<SpriteRenderer>().sprite == c1)
                 {
                     GetComponent<SpriteRenderer>().sprite = c2;
+                    timeToGrowth = random.Next(5, 11);
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == c2)
                 {
                     GetComponent<SpriteRenderer>().sprite = c3;
+                    timeToGrowth = random.Next(5, 11);
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == c3)
                 {
                     GetComponent<SpriteRenderer>().sprite = c4;
+                    timeToGrowth = random.Next(5, 11);
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == c4)
                 {
                     GetComponent<SpriteRenderer>().sprite = c5;
+                    timeToGrowth = random.Next(10, 16);
                     isReady = 1;
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == c5)
                 {
                     GetComponent<SpriteRenderer>().sprite = cd;
+                    timeToGrowth = random.Next(5, 11);
                     isReady = 0;
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == cd)
@@ -94,23 +100,28 @@ public class Plant : MonoBehaviour
                 if(GetComponent<SpriteRenderer>().sprite == t1)
                 {
                     GetComponent<SpriteRenderer>().sprite = t2;
+                    timeToGrowth = random.Next(5, 11);
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == t2)
                 {
                     GetComponent<SpriteRenderer>().sprite = t3;
+                    timeToGrowth = random.Next(5, 11);
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == t3)
                 {
                     GetComponent<SpriteRenderer>().sprite = t4;
+                    timeToGrowth = random.Next(5, 11);
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == t4)
                 {
                     GetComponent<SpriteRenderer>().sprite = t5;
+                    timeToGrowth = random.Next(10, 16);
                     isReady = 1;
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == t5)
                 {
                     GetComponent<SpriteRenderer>().sprite = td;
+                    timeToGrowth = random.Next(5, 11);
                     isReady = 0;
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == td)
@@ -121,23 +132,28 @@ public class Plant : MonoBehaviour
                 if(GetComponent<SpriteRenderer>().sprite == a1)
                 {
                     GetComponent<SpriteRenderer>().sprite = a2;
+                    timeToGrowth = random.Next(5, 11);
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == a2)
                 {
                     GetComponent<SpriteRenderer>().sprite = a3;
+                    timeToGrowth = random.Next(5, 11);
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == a3)
                 {
                     GetComponent<SpriteRenderer>().sprite = a4;
+                    timeToGrowth = random.Next(5, 11);
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == a4)
                 {
                     GetComponent<SpriteRenderer>().sprite = a5;
+                    timeToGrowth = random.Next(10, 16);
                     isReady = 1;
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == a5)
                 {
                     GetComponent<SpriteRenderer>().sprite = ad;
+                    timeToGrowth = random.Next(5, 11);
                     isReady = 0;
                 }
                 else if(GetComponent<SpriteRenderer>().sprite == ad)
