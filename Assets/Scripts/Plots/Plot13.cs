@@ -4,7 +4,7 @@ using UnityEditor.PackageManager;
 using UnityEngine;
 using System;
 
-public class Plot2 : MonoBehaviour
+public class Plot13 : MonoBehaviour
 {
     public static int plotSeed;
     // Start is called before the first frame update
