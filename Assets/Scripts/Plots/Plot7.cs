@@ -66,6 +66,7 @@ public class Plot7 : MonoBehaviour
     {
         if((Plant7.isThere == 1) && (Plant7.isReady == 1))
         {
+            Plot.playCoinSound = 1;
             killPlant = 1;
             isWatered = 0;
             GetComponent<SpriteRenderer>().sprite = noWater;

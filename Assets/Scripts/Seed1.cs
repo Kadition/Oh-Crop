@@ -11,10 +11,12 @@ public class Seed1 : MonoBehaviour
     public static int seedDown = 0;
     public static int seedTimer = 0;
     private SpriteRenderer sprite;
+    public static int playSeedSound;
 
     void Awake()
     {
         Application.targetFrameRate = 165;
+        playSeedSound = 0;
     }
 
     void Start()
@@ -58,7 +60,7 @@ public class Seed1 : MonoBehaviour
         transform.position = startingPosition;
         seedDown = 1;
         seedTimer = 5;
-        
+        playSeedSound = 1;
 
         //Todo - fix where you can fling mouse
     }

@@ -10,11 +10,13 @@ public class WaterIcon : MonoBehaviour
     public static int waterDown = 0;
     public static int waterTimer = 0;
     private SpriteRenderer sprite;
+    public static int playWaterSound;
 
     void Start()
     {
         startingPosition = transform.position;
         sprite = GetComponent<SpriteRenderer>();
+        playWaterSound = 0;
     }
     
     // Update is called once per frame
@@ -51,6 +53,7 @@ public class WaterIcon : MonoBehaviour
         transform.position = startingPosition;
         waterDown = 1;
         waterTimer = 5;
+        playWaterSound = 1;
         
 
         //Todo - fix where you can fling mouse

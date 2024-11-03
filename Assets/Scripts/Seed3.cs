@@ -42,6 +42,6 @@ public class Seed3 : MonoBehaviour
         transform.position = startingPosition;
         Seed1.seedDown = 1;
         Seed1.seedTimer = 5;
-
+        Seed1.playSeedSound = 1;
     }
 }

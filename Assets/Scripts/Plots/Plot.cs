@@ -12,8 +12,10 @@ public class Plot : MonoBehaviour
     public Sprite noWater, Water; 
     public static int killPlant;
     public static int isWatered;
+    public static int playCoinSound;
     void Start()
     {
+        playCoinSound = 0;
         isWatered = 0;
         plotSeed = 0;
         killPlant = 0;
@@ -66,6 +68,7 @@ public class Plot : MonoBehaviour
     {
         if((Plant.isThere == 1) && (Plant.isReady == 1))
         {
+            playCoinSound = 1;
             killPlant = 1;
             isWatered = 0;
             GetComponent<SpriteRenderer>().sprite = noWater;
