@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Plot : MonoBehaviour
 {
-    public static int plot1Seed = 0;
+    public static int plotSeed = 0;
     // Start is called before the first frame update
     public static Vector2 mousePos;
     public Sprite noWater, Water; 
@@ -27,19 +27,19 @@ public class Plot : MonoBehaviour
         {
             if(Seed1.seedType == 1)
             {
-                plot1Seed = Seed1.seedType;
-                Debug.Log(plot1Seed);
+                plotSeed = Seed1.seedType;
+                Debug.Log(plotSeed);
             }
             else if ((Seed1.seedType == 2) && (Coin.count > 2))
             {
-                plot1Seed = Seed1.seedType;
-                Debug.Log(plot1Seed);
+                plotSeed = Seed1.seedType;
+                Debug.Log(plotSeed);
                 Coin.count -= 3;
             }
             else if ((Seed1.seedType == 3) && (Coin.count > 9))
             {
-                plot1Seed = Seed1.seedType;
-                Debug.Log(plot1Seed);
+                plotSeed = Seed1.seedType;
+                Debug.Log(plotSeed);
                 Coin.count -= 10;
             }
             Seed1.seedDown = 0;
@@ -51,15 +51,15 @@ public class Plot : MonoBehaviour
         if((Plant.isThere == 1) && (Plant.isReady == 1))
         {
             killPlant = 1;
-            if(plot1Seed == 1)
+            if(plotSeed == 1)
             {
                 Coin.count += 1; //cost 0
             }
-            else if(plot1Seed == 2)
+            else if(plotSeed == 2)
             {
                 Coin.count += 5; //cost 3
             }
-            else if(plot1Seed == 3)
+            else if(plotSeed == 3)
             {
                 Coin.count += 20; //cost 10
             }

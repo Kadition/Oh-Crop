@@ -14,7 +14,7 @@ public class Seed1 : MonoBehaviour
 
     void Awake()
     {
-        Application.targetFrameRate = 60;
+        Application.targetFrameRate = 165;
     }
 
     void Start()
